@@ -1,0 +1,235 @@
+[
+  {
+    "name": "ButtonItem1",
+    "keyCode": 76,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      46.0,
+      252.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem2",
+    "keyCode": 79,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      46.0,
+      136.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem3",
+    "keyCode": 90,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      210.0,
+      252.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem4",
+    "keyCode": 65,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      210.0,
+      136.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem5",
+    "keyCode": 66,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      374.0,
+      252.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem6",
+    "keyCode": 78,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      374.0,
+      136.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem7",
+    "keyCode": 74,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      538.0,
+      252.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem8",
+    "keyCode": 85,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      538.0,
+      136.0,
+      104.0,
+      56.0
+    ]
+  },
+  {
+    "name": "ButtonItem14",
+    "keyCode": 102,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      831.0,
+      92.0,
+      131.0,
+      190.0
+    ]
+  },
+  {
+    "name": "ButtonItem15",
+    "keyCode": null,
+    "key": {
+      "KeyCode": 80,
+      "Win": false,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      684.0,
+      504.0,
+      278.0,
+      188.0
+    ]
+  },
+  {
+    "name": "ButtonItem16",
+    "keyCode": null,
+    "key": {
+      "KeyCode": 67,
+      "Win": false,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      684.0,
+      298.0,
+      278.0,
+      190.0
+    ]
+  },
+  {
+    "name": "ButtonItem17",
+    "keyCode": 100,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      684.0,
+      92.0,
+      131.0,
+      190.0
+    ]
+  },
+  {
+    "name": "ButtonItem18",
+    "keyCode": 87,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      24.0,
+      346.0,
+      120.0,
+      156.0
+    ]
+  },
+  {
+    "name": "ButtonItem19",
+    "keyCode": 72,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      544.0,
+      346.0,
+      120.0,
+      156.0
+    ]
+  },
+  {
+    "name": "ButtonItem20",
+    "keyCode": 68,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      284.0,
+      346.0,
+      120.0,
+      156.0
+    ]
+  },
+  {
+    "name": "ButtonItem21",
+    "keyCode": 70,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      414.0,
+      346.0,
+      120.0,
+      156.0
+    ]
+  },
+  {
+    "name": "ButtonItem22",
+    "keyCode": 83,
+    "key": null,
+    "enabled": true,
+    "simHubInput": "MyButton",
+    "bounds": [
+      154.0,
+      346.0,
+      120.0,
+      156.0
+    ]
+  }
+]

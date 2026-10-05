@@ -1,0 +1,22 @@
+# Local backups and Python caches
+/backups/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated browser render inputs; PNG previews and icons are committed
+/assets/*.html
+/docs/preview.html
+
+# Only this reference-export definition is needed to rebuild
+/source/BOXV2.0/*
+!/source/BOXV2.0/BOXV2.0.djson
+
+# Local settings
+.env
+.env.*
+.vscode/
+.idea/
+*.code-workspace
+Thumbs.db
+.DS_Store
