@@ -8,9 +8,8 @@ __pycache__/
 /assets/*.html
 /docs/preview.html
 
-# Only this reference-export definition is needed to rebuild
-/source/BOXV2.0/*
-!/source/BOXV2.0/BOXV2.0.djson
+# Original third-party reference project stays local
+/source/
 
 # Local settings
 .env

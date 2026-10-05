@@ -140,7 +140,11 @@ Before importing an update, export your customised dashboard from Dash Studio or
 
 This section is for contributors; users can install the ready-made package above.
 
-The build uses Python 3 and its standard library. From the repository root in PowerShell:
+The build uses Python 3 and its standard library. It also requires a separately obtained copy of the original **BOXV2.0** template. That third-party project is referenced here but is not distributed in this repository.
+
+Before building, place its dashboard definition at `source/BOXV2.0/BOXV2.0.djson`. The entire `source/` directory is ignored by Git so your reference copy stays local. The ready-to-import download does not require this file.
+
+From the repository root in PowerShell:
 
 ```powershell
 py tools/build_dash.py
@@ -168,19 +172,21 @@ py tools/preview_dash.py
 | --- | --- |
 | `dist/ButtonBoxLivery.simhubdash` | Ready-to-import user download |
 | `dash/ButtonBoxLivery/` | Generated dashboard and resources |
-| `source/BOXV2.0/BOXV2.0.djson` | Original template definition used by the generator |
+| `source/BOXV2.0/BOXV2.0.djson` | Separately obtained original template; local only, not included |
 | `assets/` | Background and SVG/PNG icons |
 | `tools/` | Dashboard, icon, and preview generation |
 | `docs/preview.png` | Preview with illustrative values |
 | `docs/control-map.json` | Generated button definitions and touch bounds |
 
-Local backups, Python caches, temporary rendering HTML, and unused reference-export files are excluded from version control. The source definition needed to rebuild is included.
+The original reference project, local backups, Python caches, and temporary rendering HTML are excluded from version control. Contributors must supply the original template locally before rebuilding.
 
 The preview renders generated positions with sample values; it does not evaluate SimHub formulas. Automated checks do not replace testing import, touch/key delivery, indicator states, and telemetry in a live SimHub session.
 
 ## Credits and companion dashboard
 
-This design restyles the supplied **BOXV2.0** template, retaining its keyboard actions and inherited telemetry bindings except for the documented replacements. Seat controls became indicators, pit limiter, and camera; brake readouts became temperature bars. Switch, indicator, camera, and fuel symbols are original SVG artwork rendered to embedded PNGs for SimHub.
+This project originated from the **BOXV2.0** button box project. The original project is kept as a local reference and is not included in this repository. Its saved export does not identify a creator or upstream URL; a direct attribution link is pending confirmation.
+
+This design retains the original template's keyboard actions and inherited telemetry bindings except for the documented replacements. Seat controls became indicators, pit limiter, and camera; brake readouts became temperature bars. Switch, indicator, camera, and fuel symbols are original SVG artwork rendered to embedded PNGs for SimHub.
 
 The livery background, palette, and shared dashboard helpers come from [**SimHub Turns Dash**](https://github.com/StormFuel/simhub-turns-dash), the sister telemetry dashboard with the same look and feel. Visit that repository for its installation instructions.
 
